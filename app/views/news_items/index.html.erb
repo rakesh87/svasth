@@ -1,0 +1,28 @@
+<div class="panel">
+  <div class="panel-heading">
+    <h2>News List</h2>
+  </div>
+
+  <div class="panel-body table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>News</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @news_items.each_with_index do |news_item, index| %>
+        <tr class="<%= news_item_class(news_item.status) %>">
+          <td><%= index+1 %></td>
+          <td><%= news_item.body %></td>
+          <td><%= news_item_status(news_item.status) %></td>
+          <td><%= link_to "Show News", news_item_url(news_item)%></td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

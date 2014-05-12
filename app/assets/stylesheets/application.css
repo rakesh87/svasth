@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.fs50 {
+  font-size: 50px;
+}
+

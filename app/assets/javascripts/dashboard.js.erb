@@ -1,0 +1,22 @@
+jQuery(function() {
+  var user_id = $('.page-header').data('user-id');
+
+  (function getNewsCount() {
+    $.ajax({
+      type: 'GET',
+      url: "/users/"+user_id+"/feeds_count.json",
+      dataType: "json",
+      cache: false,
+      success: function(data) {
+        $('#read-news span').html(data.read_news_count);
+        $('#unread-news span').html(data.unread_news_count);
+      },
+      complete: function() {
+        setTimeout(getNewsCount, 5000);
+      },
+      fail: function(data) {
+        console.log('Failed request', data.statusText)
+      }
+    });
+  })();
+});

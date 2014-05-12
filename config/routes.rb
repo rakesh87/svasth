@@ -1,10 +1,18 @@
 Rails.application.routes.draw do
-  devise_for :users
-  # devise_scope :user do
-  #   get "sign_in", to: "devise/sessions#new"
-  # end
-  resources :user, only: [] do
-    get 'dashboard'
+
+  resources :users, only: [] do
+    member do
+      get 'dashboard'
+      get 'feeds_count'
+    end
   end
+
+  resources :news_items, except: [:edit, :update] do
+    resources :comments, only: [:create, :index]
+  end
+
+
+  devise_for :users
+
   root to: "users#dashboard"
 end

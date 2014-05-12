@@ -1,18 +1,20 @@
-<div class="page-header">
+<%= javascript_include_tag "dashboard" %>
+
+<div class="page-header" data-user-id="<%= current_user.id %>">
   <h1>Dashboard</h1>
-  <span class=''><a href="#">News List</a></span> |
-  <span class=''><a href="#">Post News</a></span>
+  <span class='mr10'><%= link_to "News List", news_items_url %></span> |
+  <span class='ml10'><%= link_to "Add News", new_news_item_url %></span>
 </div>
 
 <div class="row">
   <div class="col-sm-9 col-md-10 col-md-offset-1 main">
     <div class="row placeholders">
-      <div class="col-lg-6">
-        <span class="text-muted">12</span>
+      <div class="col-lg-6" id="unread-news">
+        <span class="text-danger fs50"><%= @unread_news %></span>
         <h4>Unread News</h4>
       </div>
-      <div class="col-lg-6">
-        <span class="text-muted">12</span>
+      <div class="col-lg-6" id="read-news">
+        <span class="text-success fs50"><%= @read_news %></span>
         <h4>Read News</h4>
       </div>
     </div>
