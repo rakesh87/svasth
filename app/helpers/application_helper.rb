@@ -4,6 +4,6 @@ module ApplicationHelper
   end
 
   def news_item_class(status)
-    status.to_s == 'f' ? 'active' : ''
+    status.to_s == 'f' ? 'active fontBold' : ''
   end
 end
