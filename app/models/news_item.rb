@@ -4,7 +4,7 @@ class NewsItem < ActiveRecord::Base
 
   validates :body, presence: true
 
-  after_create :create_news_feeds
+  after_create :create_feeds
 
   scope :with_user, ->(user_id) {
     joins(:news_feeds)
@@ -18,10 +18,16 @@ class NewsItem < ActiveRecord::Base
 
   private
 
-  def create_news_feeds
-    User.all.each do |user|
-      news_feeds.create(user_id: user.id)
+  def create_feeds
+    transaction do
+      User.select(:id).find_each(batch_size: 100).map do |user|
+        news_feeds.create(user_id: user.id)
+      end
     end
+
+    # self.class.connection.execute <<-EOS
+    #   INSERT INTO news_feeds (`news_item_id`, `user_id`) VALUES #{feed_values.join(", ")}
+    # EOS
   end
 
 end
