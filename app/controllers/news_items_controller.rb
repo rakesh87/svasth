@@ -26,7 +26,7 @@ class NewsItemsController < ApplicationController
 
   def destroy
     @news_item = NewsItem.find(params[:id])
-    @news_item.destroy
+    @news_item.destroy if current_user.news_author?(@news_item)
     redirect_to root_url
   end
 
