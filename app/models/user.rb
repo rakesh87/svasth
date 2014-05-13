@@ -14,4 +14,8 @@ class User < ActiveRecord::Base
   def read_news_count
     news_feeds.read.count
   end
+
+  def news_author?(news_item)
+    news_item.user_id == self.id
+  end
 end

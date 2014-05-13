@@ -16,6 +16,10 @@ class NewsItem < ActiveRecord::Base
     comments.with_user
   end
 
+  def update_news_feed!(current_user_id)
+    news_feeds.where(user_id: current_user_id).first.update(status: true)
+  end
+
   private
 
   def create_feeds

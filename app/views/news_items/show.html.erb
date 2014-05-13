@@ -3,9 +3,11 @@
 <div class="panel">
   <div class="panel-heading">
     <h2>News</h2>
-    <span class="text-muted">
-      <%= link_to "Delete News", news_item_url(@news_item), method: :delete, data: { confirm: "You sure?" } %>
-    </span>
+    <% if current_user.news_author?(@news_item) %>
+      <span class="text-muted">
+        <%= link_to "Delete News", news_item_url(@news_item), method: :delete, data: { confirm: "You sure?" } %>
+      </span>
+    <% end %>
   </div>
 
   <div class="panel-body">

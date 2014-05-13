@@ -20,7 +20,7 @@ class NewsItemsController < ApplicationController
 
   def show
     @news_item = NewsItem.find(params[:id])
-    @news_item.news_feeds.first.update(status: true)
+    @news_item.update_news_feed!(current_user.id)
     @comment = @news_item.comments.new(user_id: current_user.id)
   end
 
