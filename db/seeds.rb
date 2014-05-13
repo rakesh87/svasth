@@ -1,4 +1,4 @@
-User.create! email: "rakesh.verma@gmail.com", password: "password"
+User.create! email: "rakesh.verma0487@gmail.com", password: "password"
 User.create! email: "rakesh@gmail.com", password: "password"
 User.create! email: "verma@gmail.com", password: "password"
 User.create! email: "r.verma@gmail.com", password: "password"
