@@ -28,6 +28,7 @@ group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'shoulda-matchers', require: false
+  gem 'debugger'
 end
 
 gem 'diff-lcs', '~>1.2.5'

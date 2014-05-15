@@ -1,6 +1,6 @@
 jQuery(function() {
   var user_id = $('.page-header').data('user-id');
-
+  var timeOut = 5000;
   (function getNewsCount() {
     $.ajax({
       type: 'GET',
@@ -11,8 +11,11 @@ jQuery(function() {
         $('#read-news span').html(data.read_news_count);
         $('#unread-news span').html(data.unread_news_count);
       },
-      complete: function() {
-        setTimeout(getNewsCount, 5000);
+      complete: function(data) {
+        if(data.status === 500)
+          timeOut = timeOut * 2 ;
+        console.log(timeOut);
+        setTimeout(getNewsCount, timeOut);
       },
       fail: function(data) {
         console.log('Failed request', data.statusText)

@@ -3,8 +3,7 @@ class NewsItem < ActiveRecord::Base
   has_many :comments, dependent: :destroy
 
   validates :body, presence: true
-
-  after_create :create_feeds
+  validates :user_id, presence: true
 
   scope :with_user, ->(user_id) {
     joins(:news_feeds)
@@ -17,10 +16,9 @@ class NewsItem < ActiveRecord::Base
   end
 
   def update_news_feed!(current_user_id)
-    news_feeds.where(user_id: current_user_id).first.update(status: true)
+    news_feed = news_feeds.where(user_id: current_user_id).first
+    news_feed && news_feed.update(status: true)
   end
-
-  private
 
   def create_feeds
     transaction do

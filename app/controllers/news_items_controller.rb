@@ -12,6 +12,7 @@ class NewsItemsController < ApplicationController
   def create
     @news_item = NewsItem.new(news_item_params)
     if @news_item.save
+      @news_item.create_feeds
       redirect_to root_url
     else
       render :new

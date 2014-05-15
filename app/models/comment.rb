@@ -5,6 +5,6 @@ class Comment < ActiveRecord::Base
   validates :body, presence: true
 
   scope :with_user,
-    -> { joins(:user).select('users.email AS user_email, comments.body')
+    -> { joins(:user).select('comments.id, comments.body, users.email AS user_email')
       .order('comments.created_at DESC')}
 end
