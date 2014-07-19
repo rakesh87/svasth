@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :todos
+
   resources :users, only: [] do
     member do
       get 'dashboard'
@@ -14,5 +16,6 @@ Rails.application.routes.draw do
 
   devise_for :users
 
-  root to: "users#dashboard"
+  # root to: "users#dashboard"
+  root to: "todos#index"
 end

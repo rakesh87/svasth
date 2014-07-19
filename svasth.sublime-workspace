@@ -1,0 +1,1166 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"do",
+				"do"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"To",
+				"toDoItem"
+			],
+			[
+				"to",
+				"todo"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"ct",
+				"ct"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"te",
+				"text_mock"
+			],
+			[
+				"tex",
+				"text_exporter"
+			],
+			[
+				"text",
+				"text_mock"
+			],
+			[
+				"pdf",
+				"pdf_mock"
+			],
+			[
+				"al",
+				"alien_info_hash"
+			],
+			[
+				"sub",
+				"subject	subject - Rspec subject helper"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"exporter",
+				"exporter_klass"
+			],
+			[
+				"expo",
+				"exporter"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"news",
+				"news_item"
+			],
+			[
+				"new",
+				"news_item_2"
+			],
+			[
+				"with",
+				"with_user"
+			],
+			[
+				"ni",
+				"ni"
+			],
+			[
+				"news_",
+				"news_item"
+			],
+			[
+				"user",
+				"user_2"
+			],
+			[
+				"be",
+				"before"
+			],
+			[
+				"time",
+				"timeOut"
+			],
+			[
+				"File",
+				"FormatFile"
+			],
+			[
+				"comments",
+				"comment_with_user"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"feed",
+				"feed_count_url"
+			],
+			[
+				"comm",
+				"comment_data"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"com",
+				"comment_url"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"error",
+				"errors"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"news_item",
+				"news_item_params"
+			],
+			[
+				"form",
+				"form-signin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/rakesh/code/raffler/app/assets/javascripts/routers/entries_router.js.coffee",
+			"settings":
+			{
+				"buffer_size": 387,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/rakesh/code/raffler/app/assets/javascripts/views/entries/entries_index.js.coffee",
+			"settings":
+			{
+				"buffer_size": 562,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/rakesh/code/raffler/app/assets/javascripts/views/entries/entry.js.coffee",
+			"settings":
+			{
+				"buffer_size": 163,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/rakesh/code/raffler/app/assets/templates/entries/entry.jst.eco",
+			"settings":
+			{
+				"buffer_size": 42,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/rakesh/code/raffler/app/assets/templates/entries/index.jst.eco",
+			"settings":
+			{
+				"buffer_size": 182,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/rakesh/code/raffler/app/assets/javascripts/collections/entries.js.coffee",
+			"settings":
+			{
+				"buffer_size": 115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/rakesh/code/raffler/db/seeds.rb",
+			"settings":
+			{
+				"buffer_size": 572,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"cas",
+				"Convert Case: Upper Case"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/rakesh/code/raffler/app/assets/javascripts/views/entries/entry.js.coffee",
+		"/home/rakesh/code/raffler/config/routes.rb",
+		"/home/rakesh/code/raffler/app/assets/javascripts/raffler.js.coffee",
+		"/home/rakesh/code/raffler/app/controllers/entries_controller.rb",
+		"/home/rakesh/code/raffler/test/fixtures/entries.yml",
+		"/home/rakesh/code/raffler/app/models/entry.rb",
+		"/home/rakesh/code/raffler/config/environments/development.rb",
+		"/home/rakesh/code/raffler/Rakefile",
+		"/home/rakesh/code/raffler/bin/rails",
+		"/home/rakesh/code/test1/Gemfile",
+		"/home/rakesh/code/test1/app/models/article.rb",
+		"/home/rakesh/code/test1/test/models/article_test.rb",
+		"/home/rakesh/code/test1/app/controllers/articles_controller.rb",
+		"/home/rakesh/code/test1/test/fixtures/articles.yml",
+		"/home/rakesh/code/test1/app/views/layouts/application.html.erb",
+		"/home/rakesh/code/test1/app/assets/javascripts/articles.js.coffee",
+		"/home/rakesh/code/test1/app/helpers/articles_helper.rb",
+		"/home/rakesh/code/backbone/index.html",
+		"/media/DE98573198570783/Users/rverma/Desktop/qwe",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/routes.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/models/campaign.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/collections/bundles.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/collections/reports.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/collections/templates.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/models/campaign_templates.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/models/list_location.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/models/report.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/models/template.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/models/test_campaign.js.coffee",
+		"/home/rakesh/Desktop/test.html",
+		"/home/rakesh/code/svasth/Gemfile",
+		"/home/rakesh/code/rails-devise-pundit/Gemfile",
+		"/home/rakesh/code/binge/Gemfile",
+		"/home/rakesh/code/backbone-examples/lottery/app/assets/templates/entries/index.jst.eco",
+		"/home/rakesh/code/backbone-examples/lottery/app/assets/javascripts/views/entries/entry.js.coffee",
+		"/home/rakesh/code/backbone-examples/lottery/app/assets/templates/entries/entry.jst.eco",
+		"/home/rakesh/code/backbone-examples/lottery/app/assets/javascripts/routers/entries_router.js.coffee",
+		"/home/rakesh/code/backbone-examples/lottery/app/assets/javascripts/views/entries/entries_index.js.coffee",
+		"/home/rakesh/code/backbone-examples/lottery/app/assets/javascripts/lottery.js.coffee",
+		"/home/rakesh/code/backbone-examples/lottery/app/assets/javascripts/collections/entries.js.coffee",
+		"/home/rakesh/code/backbone-examples/lottery/app/assets/javascripts/main.js.coffee",
+		"/home/rakesh/code/backbone-examples/lottery/app/controllers/main_controller.rb",
+		"/home/rakesh/code/backbone-examples/lottery/db/seeds.rb",
+		"/home/rakesh/code/backbone-examples/lottery/config/routes.rb",
+		"/home/rakesh/code/backbone-examples/lottery/app/controllers/entries_controller.rb",
+		"/home/rakesh/code/backbone-examples/lottery/app/views/main/index.html.erb",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/views/item.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/views/index.js.coffee",
+		"/home/rakesh/code/backbone-examples/lottery/test/helpers/entries_helper_test.rb",
+		"/home/rakesh/code/backbone-examples/lottery/test/fixtures/entries.yml",
+		"/home/rakesh/code/backbone-examples/lottery/test/controllers/entries_controller_test.rb",
+		"/home/rakesh/code/backbone-examples/lottery/app/models/entry.rb",
+		"/home/rakesh/code/backbone-examples/lottery/test/models/entry_test.rb",
+		"/home/rakesh/code/backbone-examples/lottery/config/environment.rb",
+		"/home/rakesh/code/backbone-examples/lottery/config/environments/development.rb",
+		"/home/rakesh/code/backbone-examples/lottery/Gemfile",
+		"/home/rakesh/code/backbone-examples/lottery/app/assets/javascripts/application.js",
+		"/home/rakesh/code/backbone-examples/lottery/app/views/layouts/application.html.erb",
+		"/home/rakesh/code/backbone-examples/lottery/Rakefile",
+		"/home/rakesh/code/backbone-examples/lottery/config/initializers/inflections.rb",
+		"/home/rakesh/code/svasth/app/assets/javascripts/svasth.js.coffee",
+		"/home/rakesh/code/svasth/app/assets/javascripts/todos.js.coffee",
+		"/home/rakesh/code/svasth/app/assets/javascripts/application.js",
+		"/home/rakesh/code/svasth/app/assets/javascripts/comments.js.erb",
+		"/home/rakesh/code/svasth/app/assets/javascripts/dashboard.js.erb",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/views/select_template.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/views/slide1.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/merchant/campaigns/views/slide2.js.coffee",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/campaigns.js",
+		"/home/rakesh/code/svasth/app/views/todos/index.html.erb",
+		"/home/rakesh/code/svasth/app/views/layouts/application.html.erb",
+		"/home/rakesh/code/svasth/config/routes.rb",
+		"/home/rakesh/code/svasth/config/initializers/assets.rb",
+		"/home/rakesh/code/svasth/config/environments/development.rb",
+		"/home/rakesh/code/svasth/config/initializers/devise.rb",
+		"/home/rakesh/code/svasth/app/helpers/application_helper.rb",
+		"/home/rakesh/code/svasth/app/controllers/application_controller.rb",
+		"/home/rakesh/code/svasth/app/assets/stylesheets/application.css",
+		"/home/rakesh/code/svasth/Rakefile",
+		"/home/rakesh/code/email-manager/app/views/layouts/application.html.haml",
+		"/home/rakesh/code/email-manager/app/assets/templates/merchant-campaigns/index.jst.hamlc",
+		"/home/rakesh/code/email-manager/app/models/tag.rb",
+		"/home/rakesh/code/email-manager/app/models/campaign_list.rb",
+		"/home/rakesh/code/email-manager/app/models/list.rb",
+		"/home/rakesh/code/big_bazar/Gemfile",
+		"/home/rakesh/code/email-manager/app/controllers/campaigns_controller.rb",
+		"/home/rakesh/code/email-manager/app/views/merchants/campaigns/index.html.haml",
+		"/home/rakesh/code/email-manager/app/assets/templates/merchant-campaigns/item.jst.hamlc",
+		"/home/rakesh/code/email-manager/app/models/campaign.rb",
+		"/home/rakesh/code/email-manager/app/models/un_subscribe.rb",
+		"/home/rakesh/code/email-manager/Gemfile",
+		"/home/rakesh/code/email-manager/app/controllers/sessions_controller.rb",
+		"/home/rakesh/code/email-manager/config/database.yml",
+		"/home/rakesh/code/email-manager/db/schema.rb",
+		"/home/rakesh/code/email-manager/app/models/native/user.rb",
+		"/home/rakesh/code/email-manager/app/mailers/user_mailer.rb",
+		"/home/rakesh/code/email-manager/config/initializers/session_store.rb",
+		"/home/rakesh/code/email-manager/db/seeds.rb",
+		"/home/rakesh/code/big_bazar/config/database.yml",
+		"/home/rakesh/code/email-manager/config/initializers/devise.rb",
+		"/home/rakesh/code/email-manager/config/initializers/wrap_parameters.rb",
+		"/home/rakesh/code/email-manager/config/initializers/secret_token.rb",
+		"/home/rakesh/code/email-manager/config/initializers/mongoid_tracker.rb",
+		"/home/rakesh/code/email-manager/config/initializers/mongoid_history.rb",
+		"/home/rakesh/code/email-manager/config/initializers/mailgun.rb",
+		"/home/rakesh/code/email-manager/config/initializers/ckeditor.rb",
+		"/home/rakesh/code/email-manager/config/initializers/backtrace_silencers.rb",
+		"/home/rakesh/code/email-manager/config/initializers/aws-upload.rb",
+		"/home/rakesh/code/email-manager/config/locales/devise.en.yml",
+		"/home/rakesh/code/email-manager/config/locales/en.yml",
+		"/home/rakesh/code/email-manager/config/routes.rb",
+		"/home/rakesh/code/email-manager/config/cloudinary.yml",
+		"/home/rakesh/code/email-manager/config/mongoid.yml",
+		"/home/rakesh/code/email-manager/config/boot.rb",
+		"/home/rakesh/code/email-manager/app/models/bundle.rb",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/vendors/daterange-admin.js",
+		"/home/rakesh/code/email-manager/app/models/property_location.rb",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/vendors/tagmanager.js",
+		"/home/rakesh/code/email-manager/app/models/coupon.rb",
+		"/home/rakesh/code/email-manager/app/assets/javascripts/coupons.js",
+		"/home/rakesh/code/email-manager/app/models/campaign_template.rb",
+		"/home/rakesh/code/email-manager/app/assets/stylesheets/vendors/icomoon/lte-ie7.js",
+		"/home/rakesh/code/email-manager/app/models/layout.rb",
+		"/home/rakesh/code/email-manager/app/uploaders/ckeditor_attachment_file_uploader.rb",
+		"/home/rakesh/code/email-manager/config.ru",
+		"/home/rakesh/code/email-manager/Gemfile.lock",
+		"/home/rakesh/code/rails/rails.gemspec",
+		"/home/rakesh/code/rails/activesupport/lib/active_support.rb"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"",
+			"/home/rakesh/code/rails/actionmailer,/home/rakesh/code/email-manager/app",
+			"/home/rakesh/code/rails/actionmailer",
+			"/home/rakesh/code/rails",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"el",
+			"entries",
+			"Lottery.Routers.Entries",
+			"EMarketing.Views.CampaignsIndex",
+			"mongoid",
+			"campaign",
+			"has_and_belongs_to_many :campaigns",
+			"multimap",
+			"mini",
+			"minimap",
+			"self extend",
+			"item",
+			"BEAUTY",
+			"\"\n",
+			"email",
+			"body",
+			"users",
+			"user_id",
+			"comments",
+			"cs",
+			"u",
+			"c",
+			"news_item_class",
+			"news_item_status",
+			"pdf",
+			"mock",
+			"text",
+			"text_exporter",
+			"prawn_document",
+			"pdf",
+			"      \n",
+			"@text_exporter",
+			"@alien_info",
+			"=>",
+			"get_class",
+			"generate_export_file_name",
+			"alien",
+			":",
+			"klass_name",
+			":",
+			"attr_reader",
+			"puts",
+			"integer",
+			"file",
+			"lib/",
+			"require_relative",
+			"start_console_work",
+			"gets.chomp",
+			"chomp",
+			"gets.chomp",
+			".",
+			"[]",
+			"to_a",
+			"be_nil",
+			"@",
+			".id",
+			"_id",
+			"news_item_1",
+			"user",
+			"@comment",
+			"comment",
+			"self.",
+			"alien",
+			":",
+			"}",
+			")",
+			"{ ",
+			"let(:",
+			"_id",
+			"comment",
+			"Comment",
+			"bue",
+			"news_feed_values",
+			"inserts",
+			"news_item_class",
+			"Something Being Said",
+			"li",
+			" table-responsive",
+			"mt20",
+			"worker",
+			"feeds_count",
+			"news_feeds",
+			"0",
+			"12",
+			"User.first",
+			"render :feeds_count",
+			"current_user",
+			"feeds",
+			", on: :member",
+			"    respond_to do |format|\n      format.js { feeds_count: feeds.count }\n    end",
+			"    respond_to do |format|\n      format.js { feeds_count: feeds.count }\n    end\n",
+			"current_user",
+			"unread",
+			"news_item",
+			"news_items",
+			"current_user",
+			"NewsItem",
+			"h1",
+			"col-lg-4",
+			"h1",
+			"h4",
+			"col-xs-6 col-sm-3 placeholder"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/home/rakesh/code/raffler"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/rakesh/code/raffler/app/assets/javascripts/routers/entries_router.js.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/rakesh/code/raffler/app/assets/javascripts/views/entries/entries_index.js.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								434,
+								434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/rakesh/code/raffler/app/assets/javascripts/views/entries/entry.js.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/rakesh/code/raffler/app/assets/templates/entries/entry.jst.eco",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/rakesh/code/raffler/app/assets/templates/entries/index.jst.eco",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/rakesh/code/raffler/app/assets/javascripts/collections/entries.js.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/rakesh/code/raffler/db/seeds.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"entries",
+				"app/controllers/entries_controller.rb"
+			],
+			[
+				"raff",
+				"app/assets/javascripts/raffler.js.coffee"
+			],
+			[
+				"raffl",
+				"app/assets/javascripts/raffler.js.coffee"
+			],
+			[
+				"deve",
+				"config/environments/development.rb"
+			],
+			[
+				"article",
+				"app/controllers/articles_controller.rb"
+			],
+			[
+				"articl",
+				"test/models/article_test.rb"
+			],
+			[
+				"arti",
+				"app/models/article.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"ent",
+				"app/controllers/entries_controller.rb"
+			],
+			[
+				"appli",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"ro",
+				"config/routes.rb"
+			],
+			[
+				"inde",
+				"app/views/main/index.html.erb"
+			],
+			[
+				"mai",
+				"app/controllers/main_controller.rb"
+			],
+			[
+				"app",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"user",
+				"app/models/native/user.rb"
+			],
+			[
+				"sessio",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"un_subscribe",
+				"app/models/un_subscribe.rb"
+			],
+			[
+				"list",
+				"app/models/list.rb"
+			],
+			[
+				"tag",
+				"app/models/tag.rb"
+			],
+			[
+				"property_location",
+				"app/models/property_location.rb"
+			],
+			[
+				"campaign_list",
+				"app/models/campaign_list.rb"
+			],
+			[
+				"coupon",
+				"app/models/coupon.rb"
+			],
+			[
+				"campaign_template",
+				"app/models/campaign_template.rb"
+			],
+			[
+				"camp",
+				"app/models/campaign.rb"
+			],
+			[
+				"about",
+				"about_nil.rb"
+			],
+			[
+				"item",
+				"app/models/item.rb"
+			],
+			[
+				"purcha",
+				"app/models/purchase.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"see",
+				"db/seeds.rb"
+			],
+			[
+				"ite",
+				"app/models/item.rb"
+			],
+			[
+				"read",
+				"svasth/README.rdoc"
+			],
+			[
+				"applicat",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"news",
+				"app/controllers/news_items_controller.rb"
+			],
+			[
+				"dash",
+				"app/views/users/dashboard.html.erb"
+			],
+			[
+				"applicatio",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"ali",
+				"lib/alien_store_cli.rb"
+			],
+			[
+				"pdf",
+				"spec/exporter/pdf_spec.rb"
+			],
+			[
+				"te",
+				"spec/exporter/text_spec.rb"
+			],
+			[
+				"test",
+				"spec/exporter/text_spec.rb"
+			],
+			[
+				"alien",
+				"spec/alien_spec.rb"
+			],
+			[
+				"alie",
+				"bin/alien-store.rb"
+			],
+			[
+				"text",
+				"lib/exporter/text.rb"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				"rak",
+				"Rakefile"
+			],
+			[
+				"con",
+				"console_app/lib/console_set_up.rb"
+			],
+			[
+				"console",
+				"console_app/lib/console_set_up.rb"
+			],
+			[
+				"export",
+				"console_app/lib/export_file.rb"
+			],
+			[
+				"cons",
+				"console_app/lib/console_set_up.rb"
+			],
+			[
+				"users",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"user_spe",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"ne",
+				"spec/models/news_item_spec.rb"
+			],
+			[
+				"news_item",
+				"spec/models/news_item_spec.rb"
+			],
+			[
+				"news_fee",
+				"spec/models/news_feed_spec.rb"
+			],
+			[
+				"news_ite",
+				"spec/factories/news_items.rb"
+			],
+			[
+				"new",
+				"app/models/news_item.rb"
+			],
+			[
+				"news_",
+				"spec/factories/news_items.rb"
+			],
+			[
+				"news_feed_sp",
+				"spec/models/news_feed_spec.rb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"commet",
+				"app/controllers/comments_controller.rb"
+			],
+			[
+				"comment",
+				"app/models/comment.rb"
+			],
+			[
+				"comments",
+				"spec/factories/comments.rb"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"index",
+				"app/views/news_items/index.html.erb"
+			],
+			[
+				"appl",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"show",
+				"app/views/news_items/show.html.erb"
+			],
+			[
+				"news_feeds",
+				"spec/factories/news_feeds.rb"
+			],
+			[
+				"das",
+				"app/assets/stylesheets/dashboard.css"
+			],
+			[
+				"comm",
+				"app/assets/javascripts/comments.js.erb"
+			],
+			[
+				"applica",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"comme",
+				"app/models/comment.rb"
+			],
+			[
+				"commest",
+				"app/controllers/comments_controller.rb"
+			],
+			[
+				"sessions",
+				"app/views/devise/sessions/new.html.erb"
+			],
+			[
+				".css",
+				"app/assets/stylesheets/dashboard.css"
+			],
+			[
+				"assets",
+				"lib/assets/.keep"
+			],
+			[
+				"dats",
+				"app/views/users/dashboard.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"app/models/news_feed.rb",
+				"app/models/news_feed.rb"
+			],
+			[
+				"db/migrate/20140512074604_create_news_feeds.rb",
+				"db/migrate/20140512074604_create_news_feeds.rb"
+			],
+			[
+				"nws",
+				"app/controllers/news_items_controller.rb"
+			],
+			[
+				"",
+				"app/controllers/newsitems_controller.rb"
+			],
+			[
+				"newsitems",
+				"app/controllers/newsitems_controller.rb"
+			],
+			[
+				"de",
+				"config/initializers/devise.rb"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
